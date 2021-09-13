@@ -55,7 +55,7 @@ namespace PhoneMarket
             if(iKey.Key == ConsoleKey.Escape)
             {
                 return;
-            }else if(iKey.Key == ConsoleKey.Enter || iKey.Key == ConsoleKey.Backspace)
+            }else //if(iKey.Key == ConsoleKey.Enter || iKey.Key == ConsoleKey.Backspace)
             {
                 Console.Clear();
                 MainMenu();
